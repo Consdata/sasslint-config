@@ -26,7 +26,14 @@
     "no-invalid-hex": 1,
     "no-mergeable-selectors": 1,
     "no-misspelled-properties": 1,
-    "no-qualifying-elements": 1,
+    "no-qualifying-elements": [
+      1,
+      {
+        "allow-element-with-attribute": true,
+        "allow-element-with-class": true,
+        "allow-element-with-id": true
+      }
+    ],
     "no-trailing-whitespace": 1,
     "no-trailing-zero": 1,
     "no-transition-all": 1,
@@ -58,7 +65,12 @@
     "leading-zero": 1,
     "max-line-length": 0,
     "max-file-line-count": 0,
-    "nesting-depth": 1,
+    "nesting-depth": [
+      1,
+      {
+        "max-depth": 4
+      }
+    ],
     "property-sort-order": 0,
     "pseudo-element": 1,
     "quotes": 1,

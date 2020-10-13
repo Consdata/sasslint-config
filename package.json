@@ -1,6 +1,6 @@
 {
   "name": "@consdata/sasslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Consdata common SassLint rules",
   "main": "sasslint.json",
   "scripts": {
